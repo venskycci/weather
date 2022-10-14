@@ -12,7 +12,7 @@ const Search=(props)=>{
     };
     //fetch 
     const fetch_geocoder =()=>{
-      fetch("http://api.openweathermap.org/geo/1.0/direct?q="+UserSearch+"&limit=5&appid=43d2d1023ae5c6c8a741593c7261b46f")
+      fetch("https://api.openweathermap.org/geo/1.0/direct?q="+UserSearch+"&limit=5&appid=43d2d1023ae5c6c8a741593c7261b46f")
      .then((response) => response.json())
      .then((data) =>{
      console.log(data)
