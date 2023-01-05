@@ -32,7 +32,7 @@ const Hightlights = (props) =>{
               />
               
               
-              <p className='created'>created by <a target="_blank" href='https://venskycci.com/'>Mavensky</a> - devChallenges.io</p>
+              <p className='created'>created by <a target="_blank" href='https://venskycci.github.io/portafolio/'>Mavensky</a> - devChallenges.io</p>
           </div>
 
 
